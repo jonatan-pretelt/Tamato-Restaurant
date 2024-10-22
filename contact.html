@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <title>Tamato</title>
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <div class="menu-modal">
+      <section class="menu">
+        <h2>Our Menu</h2>
+        <ul>
+          <li>
+            <span class="item-name">Avocado Toast</span
+            ><span class="item-price">$8.99</span>
+          </li>
+          <li>
+            <span class="item-name">Spring Rolls</span
+            ><span class="item-price">$5.49</span>
+          </li>
+          <li>
+            <span class="item-name">Vegetable Salad</span
+            ><span class="item-price">$7.99</span>
+          </li>
+          <li>
+            <span class="item-name">Cheese Salad</span
+            ><span class="item-price">$6.99</span>
+          </li>
+          <li>
+            <span class="item-name">Pasta Primavera</span
+            ><span class="item-price">$12.49</span>
+          </li>
+          <li>
+            <span class="item-name">Tomato Soup</span
+            ><span class="item-price">$4.99</span>
+          </li>
+          <li>
+            <span class="item-name">Grilled Cheese Sandwich</span
+            ><span class="item-price">$6.49</span>
+          </li>
+          <li>
+            <span class="item-name">Margherita Pizza</span
+            ><span class="item-price">$10.99</span>
+          </li>
+          <li>
+            <span class="item-name">Quinoa Bowl</span
+            ><span class="item-price">$9.99</span>
+          </li>
+          <li>
+            <span class="item-name">Chocolate Brownie</span
+            ><span class="item-price">$3.49</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <header class="header">
+      <div class="container header-container">
+        <div class="header-container__logo">
+          <img class="logo" src="images/logo.jpg" alt="Tamato" />
+          <a href="/">Tamato</a>
+        </div>
+        <div class="contact-info">
+          <div class="contact-info__address">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>1111 Main Blvd Tampa, FL 33333</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <a href="#">813-999-8888</a>
+          </div>
+        </div>
+        <nav>
+          <ul class="main-menu">
+            <li><a href="index.html" class="home">Home</a></li>
+            <li><a href="#" class="main-menu__menu-btn">Menu</a></li>
+            <li><a href="about.html" class="main-menu__about-btn">About</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="product-overview"></section>
+
+      <section class="hero">
+        <div class="container container-sm">
+          <h2 class="hero-text">
+            Welcome to Tamato – Where Freshness Meets Flavor! Discover our
+            delicious, farm-to-table dishes, crafted with love and the finest
+            ingredients.
+          </h2>
+        </div>
+      </section>
+      <section class="about container container-md visually-hidden" id="about">
+        <div class="feature-items">
+          <div class="feature-item item1">
+            <img src="images/avocado-toast.png" alt="" />
+          </div>
+          <div class="feature-item">
+            <img src="images/cheese-salad.jpg" alt="" />
+          </div>
+          <div class="feature-item">
+            <img src="images/spring-rolls.jpg" alt="" />
+          </div>
+          <div class="feature-item">
+            <img src="images/vegetables.jpg" alt="" />
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Who We Are</h3>
+          <p>
+            At Tamato, we’re passionate about crafting fresh, wholesome dishes
+            that celebrate the flavors of nature. Our menu is carefully curated
+            to offer a variety of delicious options, made from the finest
+            ingredients. Whether you're craving something light or indulgent,
+            Tamato has something for everyone. Welcome to your new favorite
+            spot!
+          </p>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container container-sm">
+          <h2 class="section-heading">Contact Us</h2>
+          <form>
+            <div class="form-group">
+              <label for="first-name" class="visually-hidden">First Name</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first-name"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="last-name" class="visually-hidden">Last Name</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last-name"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email" class="visually-hidden">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message" class="visually-hidden">Message</label>
+                <textarea name="message" id="message"placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn">
+                    Submit
+                </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container footer-flex">
+          <div>
+            <h4>Contact Us</h4>
+            <ul>
+              <li>813-999-8888</li>
+              <li>contact@tamato.test</li>
+              <li>1111 Main Blvd Tampa, FL 33333</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Follow Us</h4>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-pinterest fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
