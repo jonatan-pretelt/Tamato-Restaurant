@@ -1,6 +1,9 @@
 # Tamato Restaurant Website
 
-**Tamato** is a minimalistic fake restaurant website built using only HTML and CSS. This project is designed to showcase a clean, simple layout for a restaurant landing page, complete with a hero section, menu, and about section.
+Open 👉🏽 https://tamatorestaurant.netlify.app/ to view it in your browser.
+
+**Tamato** is a minimalistic fake restaurant website built using only HTML and CSS (and a bit of JS). \
+ This project is designed to showcase a clean, simple layout for a restaurant landing page, complete with a hero section, menu, and about section. 
 
 ## Features
 

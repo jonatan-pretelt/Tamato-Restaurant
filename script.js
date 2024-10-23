@@ -4,19 +4,11 @@ document.addEventListener('DOMContentLoaded', function () {
     var menuModal = document.querySelector('.menu-modal');
     var aboutBtn = document.querySelector('.main-menu__about-btn');
     var aboutSection = document.getElementById('about');
-    // console.log(aboutSection);
-    // var aboutSection = document.querySelector('.about-text');
 
     menuBtn.addEventListener('click',
         function () {
             backdrop.style.display = 'block';
             menuModal.style.display = 'block';
-
-            var currentItems = document.querySelectorAll('.current');
-            for (var i = 0; i < currentItems.length; i++) {
-                currentItems[i].classList.remove('current');
-                menuBtn.classList.add('current');
-            }
         }
     );
 
